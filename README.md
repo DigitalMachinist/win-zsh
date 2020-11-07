@@ -43,17 +43,17 @@ You can install just WSL1 or upgrade to WSL2. I use the older WSL1 personally, b
 
     1. Run the following command in a PowerShell terminal to install VM features you'll need:
     
-    ```Powershell
-    dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-    ```
+        ```Powershell
+        dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+        ```
     
     2. Download and install the [WSL2 Linux kernel update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi) from [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package).
     
     3. Run the following command in a PowerShell terminal to switch to WSL2 by default:
     
-    ```Powershell
-    wsl --set-default-version 2
-    ```
+        ```Powershell
+        wsl --set-default-version 2
+        ```
 
 5. Reboot your computer. **Yes, really.**
 
