@@ -23,35 +23,33 @@ Note: The screenshot above is of my Windows terminal running oh-my-zsh with the 
 
 ## Phase 1: WSL2 Bash
 
-1. Open the Windows Store app.
+1. Open the Windows Store app and install the Ubuntu app by Canonical Group Limited. If the Windows Store isn't available to you, you can [enable developer mode](https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development) and manually install the Ubuntu 20.04 app from [here](https://docs.microsoft.com/en-us/windows/wsl/install-manual). 
 
-2. Install the Ubuntu app by Canonical Group Limited.
+2. Open a Powershell terminal as Administrator.
 
-3. Open a Powershell terminal as Administrator.
-
-4. Run the following command to install WSL:
+3. Run the following command to install WSL:
 
     ```Powershell
     dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
     ```
 
-5. Run the following command to install VM features for WSL2:
+4. Run the following command to install VM features for WSL2:
 
     ```Powershell
     dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
     ```
 
-6. Reboot your computer. **Yes, really.**
+5. Reboot your computer. **Yes, really.**
 
-7. After rebooting, run the Ubuntu app to confirm that a bash terminal starts up. You may need to set a username & password for your Ubuntu user at this point.
+6. After rebooting, run the Ubuntu app to confirm that a bash terminal starts up. You may need to set a username & password for your Ubuntu user at this point.
 
-8. Run the following command at your Ubuntu bash terminal to create a symlink from your Ubuntu home (~) to your Windows user folder:
+7. Run the following command at your Ubuntu bash terminal to create a symlink from your Ubuntu home (~) to your Windows user folder:
 
     ```bash
     ln -s ~/win10 /mnt/c/Users/<your Windows username>
     ```
 
-9. Congratulations! You have bash on Windows. But we're only getting started...
+8. Congratulations! You have bash on Windows. But we're only getting started...
 
 ## Phase 2: Cmder Bash
 
