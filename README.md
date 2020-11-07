@@ -4,6 +4,8 @@ A guide for setting up the nicest terminal Windows has ever had.
 
 ![Yes, this is possible in Windows now.](https://raw.githubusercontent.com/DigitalMachinist/win-zsh/main/featured.png)
 
+## What am I looking at?
+
 **Finally, it's possible to have a decent Win10 terminal.**
 
 In this guide, my intent is to install a bash & zsh terminals onto a Windows 10 machine such that they:
@@ -21,22 +23,36 @@ I'm also leaning on [Microsoft's WSL install guide](https://docs.microsoft.com/e
 
 Note: The screenshot above is of my Windows terminal running oh-my-zsh with the [powerlevel10k](https://github.com/romkatv/powerlevel10k) third-party theme installed and configured. I don't provide instructions on how to set this theme up, however the configuration tool that comes with powerlevel10k is *fantastic* and it's pretty easy to get a terminal set up that looks and behaves as nicely as what I have here.
 
-## Phase 1: WSL2 Bash
+## Phase 1: WSL Bash
+
+In the first phase of this process, we're going to install Windows Subsystem of Linux and get Ubuntu up and running within our Windows install so we have access to a bash terminal. This is already great, but is only a first step toward better things. 
+
+You can install just WSL1 or upgrade to WSL2. I use the older WSL1 personally, because WSL1 offers better Window filesystem performance and all my files are on my Windows drive, but it is important to note that WSL2 may perform better if you keep your dev files on your Linux filesystem. See [this comparison](https://docs.microsoft.com/en-us/windows/wsl/compare-versions) for more details. It is worth noting that it's possible to use both versions on the same machine by providing the `--set-version` parameter to WSL when it runs, but that's beyond the scope of this guide.
 
 1. Open the Windows Store app and install the Ubuntu app by Canonical Group Limited. If the Windows Store isn't available to you, you can [enable developer mode](https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development) and manually install the Ubuntu 20.04 app from [here](https://docs.microsoft.com/en-us/windows/wsl/install-manual). 
 
 2. Open a Powershell terminal as Administrator.
 
-3. Run the following command to install WSL:
+3. Run the following command in a PowerShell terminal to install WSL:
 
     ```Powershell
     dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
     ```
 
-4. Run the following command to install VM features for WSL2:
+4. If you want to upgrade to WSL2:
 
+    1. Run the following command in a PowerShell terminal to install VM features you'll need:
+    
     ```Powershell
     dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+    ```
+    
+    2. Download and install the [WSL2 Linux kernel update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi) from [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package).
+    
+    3. Run the following command in a PowerShell terminal to switch to WSL2 by default:
+    
+    ```Powershell
+    wsl --set-default-version 2
     ```
 
 5. Reboot your computer. **Yes, really.**
