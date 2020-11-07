@@ -98,7 +98,7 @@ Note: The screenshot above is of my Windows terminal running oh-my-zsh with the 
 
 8. Congratulations! You have a pretty solid bash with decent colouring and vim defaults for Windows. But we can go deeper...
 
-## Phase 3: Cmder + Oh My Zsh
+## Phase 3: Oh My Zsh
 
 1. Open your new `{WSL::bash}` terminal in Cmder.
 
