@@ -163,3 +163,7 @@ The instructions above cover the necessary steps to get zsh working and looking 
     eval $(ssh-agent -s)
     ssh-add ~/.ssh/<private key file>
     ```
+
+## Issues
+
+I'm offering this guide without warranty and I realize that eventually it will become obsolete somehow, so if you run into trouble I can't guarantee that I can help. That being said, I encourage people to post issues on this repo if you encounter problems or even if you just think something could be configured better or explained more easily. Please share your experience so I can attempt to make this guide better and learn from you.
