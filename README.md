@@ -19,7 +19,7 @@ This process is based on [Nuno Caneco's guide](https://medium.com/@nuno.caneco/z
 
 I'm also leaning on [Microsoft's WSL install guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10) and it might be a valuable resource if you run into trouble.
 
-Note: The screenshot above is of my Windows terminal running oh-my-zsh with the ![powerlevel10k](https://github.com/romkatv/powerlevel10k) third-party theme installed and configured. I don't provide instructions on how to set this theme up, however the configuration tool that comes with powerlevel10k is *fantastic* and it's pretty easy to get a terminal set up that looks and behaves as nicely as what I have here.
+Note: The screenshot above is of my Windows terminal running oh-my-zsh with the [powerlevel10k](https://github.com/romkatv/powerlevel10k) third-party theme installed and configured. I don't provide instructions on how to set this theme up, however the configuration tool that comes with powerlevel10k is *fantastic* and it's pretty easy to get a terminal set up that looks and behaves as nicely as what I have here.
 
 1. Open the Windows Store app.
 
