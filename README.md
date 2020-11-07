@@ -69,6 +69,8 @@ You can install just WSL1 or upgrade to WSL2. I use the older WSL1 personally, b
 
 ## Phase 2: Cmder Bash
 
+I've had a lot of luck with [ConEmu](https://conemu.github.io/) as a Windows terminal app in the past. [Cmder]() is a bit more stylish but still is fundamentally ConEmu under the hood, so I'm trying it out. My intent in using an app like Cmder is to centralize all of my consoles into a single tabbed application with a common configuration. If you really don't wait to do this you can probably skip it and use the WSL terminal directly without problems.
+
 1. Download the full version of Cmder ([https://cmder.net/](https://cmder.net/))
 
 2. Cmder is a portable app, so unzip it to any folder you want it to live in. I typically use `C:\Users\<username>\.portable` for my portable apps (so `C:\Users\<username>\.portable\Cmder` in this case). You'll probably also want to send a shortcut to `Cmder.exe` to your desktop or link to it in some other way for convenience. I always set this shortcut to "Run as Administrator" but I'm not sure this is required.
@@ -113,6 +115,8 @@ You can install just WSL1 or upgrade to WSL2. I use the older WSL1 personally, b
 8. Congratulations! You have a pretty solid bash with decent colouring and vim defaults for Windows. But we can go deeper...
 
 ## Phase 3: Oh My Zsh
+
+Here's the fun part. Let's get zsh installed and then spend hours fussing with it to make it pretty!
 
 1. Open your new `{WSL::bash}` terminal in Cmder.
 
