@@ -2,7 +2,7 @@
 
 A guide for setting up the nicest terminal Windows has ever had.
 
-![Yes, this is possible in Windows now.](https://raw.githubusercontent.com/DigitalMachinist/win-zsh/main/featured.jpg)
+![Yes, this is possible in Windows now.](https://raw.githubusercontent.com/DigitalMachinist/win-zsh/main/featured.png)
 
 **Finally, it's possible to have a decent Win10 terminal.**
 
