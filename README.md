@@ -73,7 +73,7 @@ In the past, I used [ConEmu](https://conemu.github.io/) or [Cmder](https://cmder
 
 2. Run Windows Terminal. It should launch a PowerShell terminal by default, but the new terminal dropdown will include an option for `Ubuntu`. Open an `Ubuntu` terminal to launch your WSL Ubuntu bash from Phase 1 to confirm that everything is working so far.
 
-3. Open your Windows Terminal settings and compare them with `settings.json` in this repo. Feel free to copy my `settings.json` over your own (make sure that your profile `guid` fields don't get lost when you do) or take bits and pieces that make sense for you. Check out [the documentation](https://docs.microsoft.com/en-us/windows/terminal/customize-settings/global-settings) for more info about configuring Windows Terminal.
+3. Open your Windows Terminal settings and compare them with [settings.json](https://github.com/DigitalMachinist/win-zsh/blob/main/settings.json) in this repo. Feel free to copy my `settings.json` over your own (make sure that your profile `guid` fields don't get lost when you do) or take bits and pieces that make sense for you. Check out [the documentation](https://docs.microsoft.com/en-us/windows/terminal/customize-settings/global-settings) for more info about configuring Windows Terminal.
 
 4. Nice! All your terminal windows belong to a simple tabbed interface and you can get to Ubuntu bash easily. Now it's time to do what we all came here for...
 
