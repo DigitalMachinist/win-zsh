@@ -4,6 +4,8 @@ A guide for setting up the nicest terminal Windows has ever had.
 
 ![Yes, this is possible in Windows now.](https://raw.githubusercontent.com/DigitalMachinist/win-zsh/main/featured.png)
 
+TThis is my Windows Terminal app running oh-my-zsh with the [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme installed. I don't provide instructions on how to set this *specific* theme up, however the configuration tool that comes with powerlevel10k is *fantastic* and it's easy to get a terminal set up that looks and behaves as nicely as what I have here once you finish this guide.
+
 ## What am I looking at?
 
 **Finally, it's possible to have a decent Win10 terminal.**
@@ -18,8 +20,6 @@ In this guide, my intent is to install a `bash` & `zsh` terminals onto a Windows
 - Support colour themes to liven up your terminal!
 
 I'm leaning on [Microsoft's WSL install guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10) and it might be a valuable resource if you run into trouble. Also, [this deep dive into WSL is very helpful](https://adamtheautomator.com/windows-subsystem-for-linux/) if you want to get into the nitty gritty.
-
-Note: The screenshot above is of my Windows terminal running oh-my-zsh with the [powerlevel10k](https://github.com/romkatv/powerlevel10k) third-party theme installed and configured. I don't provide instructions on how to set this *specific* theme up, however the configuration tool that comes with powerlevel10k is *fantastic* and it's pretty easy to get a terminal set up that looks and behaves as nicely as what I have here once you finish this guide.
 
 ## Phase 1: Ubuntu bash via WSL
 
