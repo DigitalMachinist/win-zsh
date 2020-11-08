@@ -71,7 +71,7 @@ In the past, I used [ConEmu](https://conemu.github.io/) or [Cmder](https://cmder
 
 1. [Open the Windows Store app and install the Windows Terminal app](https://www.microsoft.com/en-ca/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab) by Microsoft. If the Windows Store isn't available to you, [the Windows Terminal Github repo](https://github.com/microsoft/terminal#installing-and-running-windows-terminal) offers some other installation options to try.
 
-2. Run Windows Terminal. It should launch a PowerShell terminal by default, but the new terminal dropdown will include an option for `Ubuntu`. Open an `Ubuntu` terminal to launch your WSL back from step one to confirm that everything is working so far.
+2. Run Windows Terminal. It should launch a PowerShell terminal by default, but the new terminal dropdown will include an option for `Ubuntu`. Open an `Ubuntu` terminal to launch your WSL Ubuntu bash from Phase 1 to confirm that everything is working so far.
 
 3. Open your Windows Terminal settings and compare them with `settings.json` in this repo. Feel free to copy my `settings.json` over your own (make sure that your profile `guid` fields don't get lost when you do) or take bits and pieces that make sense for you. Check out [the documentation](https://docs.microsoft.com/en-us/windows/terminal/customize-settings/global-settings) for more info about configuring Windows Terminal.
 
