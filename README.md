@@ -113,13 +113,13 @@ Here's the fun part. Let's get zsh installed and then spend hours fussing with i
 
 The instructions above cover the necessary steps to get zsh working and looking pretty, but there are some more things you might want to do to get the most out of this setup.
 
-- I like to sent my default starting folder to `%USERPROFILE%` or a folder inside it so `zsh` opens into the Windows filesystem by default. It's less confusing to keep my files there in the idiomatic Windows folders than inside the filesystem of my WSL Ubuntu disk which is basically hidden from everything in Windows.
+- Set up your `Ubuntu` terminal as the default for new terminal windows in Windows Terminal by setting the `defaultProfile` in `settings.json` to whatever the `guid` of your `Ubuntu` profile is.
 
-- To make your WSL2 Ubuntu files more easily accessible from Windows, consider mapping `\\wsl$\Ubuntu\` as a network drive. This will allow you to quickly and easily navigate to your Ubuntu root folder (`/`). Just type `\\wsl$` into explorer, right-click on the Ubuntu folder, select `Map network drive` and pick your favourite letter for the drive.
+- Set your `startingDirectory` in `settings.json` to `%USERPROFILE%` or a folder inside it so `zsh` opens into the Windows filesystem by default. It's less confusing to keep my files there in the idiomatic Windows folders than inside the filesystem of my WSL Ubuntu disk (which is basically hidden in Windows).
+
+- Consider mapping `\\wsl$\Ubuntu\` as a network drive. This will allow you to quickly and easily navigate to your Ubuntu root folder (`/`) and find files from Windows. Just type `\\wsl$` into explorer, right-click on the Ubuntu folder, select `Map network drive` and pick your favourite letter for the drive.
 
 - Windows Terminal's settings allow you to set a colour theme that interferes with the colours of oh-my-zsh themes. You might need to fuss with these to get the best look. I haven't figured out how to guarantee that you're getting the colours that oh-my-zsh theme authors intended for their themes just yet.
-
-- Set up your `Ubuntu` terminal as the default for new terminal windows in Windows Terminal by setting the `defaultProfile` in `settings.json` to whatever the `guid` of your `Ubuntu` profile is.
 
 - Consider installing a nice monospace font for your new terminal. Here are a few recommendations:
   - [MesloLGS NF](https://github.com/romkatv/powerlevel10k/blob/master/font.md) (Use this if you install the powerlevel10k Oh My Zsh theme!)
