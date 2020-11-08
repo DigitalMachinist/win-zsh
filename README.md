@@ -142,6 +142,8 @@ The instructions above cover the necessary steps to get zsh working and looking 
     eval $(ssh-agent -s)
     ssh-add ~/.ssh/<private key file>
     ```
+    
+- I'm annoyed by how my Windows Terminal `Settings.json` copy/paste bindings collide with \*nix commands and would love to have better suggestions. For example, `Ctrl+C` sends `SIGINT` in \*nix and I don't want to kill commands that are running to copy text since apparently both happen at he same time. Also, in vim `Ctrl+V` enters visual mode but Windows Terminal's `Ctrl+V` bind seems to block vim from doing this.
 
 ## Issues
 
