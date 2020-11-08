@@ -8,7 +8,7 @@ A guide for setting up the nicest terminal Windows has ever had.
 
 **Finally, it's possible to have a decent Win10 terminal.**
 
-In this guide, my intent is to install a bash & zsh terminals onto a Windows 10 machine such that they:
+In this guide, my intent is to install a [bash] & [zsh] terminals onto a Windows 10 machine such that they:
 
 - Have easy access to the Windows filesystem
 - Run almost as fast as a native implementation
@@ -135,7 +135,7 @@ The instructions above cover the necessary steps to get zsh working and looking 
   - [httpie](https://github.com/httpie/httpie) is a more colourful and usable version of `curl`
   - [fzf](https://github.com/junegunn/fzf) is a powerful fuzzy-search tool. In particular, it supports keybinds such as `Ctrl+R` to fuzzy search your command history or `Alt+C` to fuzzy-find files recursively from your current folder.
 
-- I like to add the following lines to the end of my `~/.zshrc` to automatically start up my SSH agent and install my SSH key so I can use Github without interruption:
+- I like to add the following lines to the end of my `~/.zshrc` to automatically start up my SSH agent and install my SSH key so I can use Github via SSH without interruption:
 
     ```zsh
     echo "Starting SSH agent..."
