@@ -8,7 +8,7 @@ A guide for setting up the nicest terminal Windows has ever had.
 
 **Finally, it's possible to have a decent Win10 terminal.**
 
-In this guide, my intent is to install a [bash] & [zsh] terminals onto a Windows 10 machine such that they:
+In this guide, my intent is to install a `bash` & `zsh` terminals onto a Windows 10 machine such that they:
 
 - Have easy access to the Windows filesystem
 - Run almost as fast as a native implementation
