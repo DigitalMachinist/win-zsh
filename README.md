@@ -143,7 +143,7 @@ The instructions above cover the necessary steps to get zsh working and looking 
     ssh-add ~/.ssh/<private key file>
     ```
     
-- I'm annoyed by how my Windows Terminal `Settings.json` copy/paste bindings collide with \*nix commands and would love to have better suggestions. For example, `Ctrl+C` sends `SIGINT` in \*nix and I don't want to kill commands that are running to copy text since apparently both happen at the same time. Also, in vim `Ctrl+V` enters visual mode but Windows Terminal's `Ctrl+V` bind seems to block vim from doing this.
+- I'm annoyed by how my Windows Terminal `Settings.json` copy/paste bindings collide with \*nix commands and would love to have better suggestions. For example, in vim `Ctrl+V` enters visual mode but Windows Terminal's `Ctrl+V` bind seems run the equivalent of `xp` in vim (delete the current character and replace it with the copied text) which prevents you from entering visual mode entirely *and* unexpectedly changes your document.
 
 - While I don't use PowerShell that much personally, [PowerLine](https://github.com/Jaykul/PowerLine) seems like a promising tool to bring similar terminal theming to that of oh-my-zsh with powerlevel10k to PowerShell. Check that out if you're a regular PowerShell user.
 
