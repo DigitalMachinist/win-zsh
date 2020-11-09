@@ -126,7 +126,7 @@ The instructions above cover the necessary steps to get zsh working and looking 
   - [Ubuntu Mono](https://fonts.google.com/specimen/Ubuntu+Mono)
   - [Fira Code](https://github.com/tonsky/FiraCode)
 
-- Consider [upgrading your WSL2 Ubuntu from 20.04 to 20.10](https://discourse.ubuntu.com/t/installing-ubuntu-20-10-on-wsl/18941). It really does open up some exciting new possiblities for what you can do with it (like some of the recommended tools below).
+- Consider [upgrading your WSL Ubuntu from 20.04 to 20.10](https://discourse.ubuntu.com/t/installing-ubuntu-20-10-on-wsl/18941). It really does open up some exciting new possiblities for what you can do with it (like some of the recommended tools below).
 
 - Consider adding some other spicy *nix tools to your Windows terminal:
   - [bat](https://ostechnix.com/bat-a-cat-clone-with-syntax-highlighting-and-git-integration/) is a more colourful and usable version of `cat`
