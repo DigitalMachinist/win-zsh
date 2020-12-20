@@ -60,7 +60,7 @@ You can install just WSL1 or upgrade to WSL2. I use the older WSL1 personally, b
 7. Run the following command at your Ubuntu bash terminal to create a symlink from your Ubuntu home (~) to your Windows user folder:
 
     ```bash
-    ln -s ~/win10 /mnt/c/Users/<your Windows username>
+    ln -s /mnt/c/Users/<your Windows username> ~/win10
     ```
 
 8. Congratulations! You can use bash from Windows. It's not a trick or a hacky Windows implementation. Real Linux bash, with access to all the great tooling from the Ubuntu/Debian environment. The possibilities are endless! But we're only getting started...
