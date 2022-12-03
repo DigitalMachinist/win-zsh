@@ -67,7 +67,7 @@ You can install just WSL1 or upgrade to WSL2. I use the older WSL1 personally, b
 
 ## Phase 2: New Windows Terminal
 
-In the past, I used [ConEmu](https://conemu.github.io/) or [Cmder](https://cmder.net/) as a terminal app to centralize all of my terminals to one window. It's possible to run WSL terminals on apps such as these, but the setup is more complex than it needs to be. These days, the new [Windows Terminal](https://github.com/microsoft/terminal) from Microsoft acts to merge all my terminals into one window and has out-of-the-box support for WSL and will run the Ubuntu bash terminal we installed above with zero configuration.
+In the past, I used [ConEmu](https://conemu.github.io/) or [Cmder]([https://cmder.net/](https://cmder.app/)) as a terminal app to centralize all of my terminals to one window. It's possible to run WSL terminals on apps such as these, but the setup is more complex than it needs to be. These days, the new [Windows Terminal](https://github.com/microsoft/terminal) from Microsoft acts to merge all my terminals into one window and has out-of-the-box support for WSL and will run the Ubuntu bash terminal we installed above with zero configuration.
 
 1. [Open the Windows Store app and install the Windows Terminal app](https://www.microsoft.com/en-ca/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab) by Microsoft. If the Windows Store isn't available to you, [the Windows Terminal Github repo](https://github.com/microsoft/terminal#installing-and-running-windows-terminal) offers some other installation options to try.
 
